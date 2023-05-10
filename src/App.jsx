@@ -59,7 +59,7 @@ function App() {
   return (
     <Context.Provider value={{ removeTodo: removeTodo }}>
       <div className="wrapper">
-        <h1>React Tutorial</h1>
+        <h1>To-do List</h1>
         <React.Suspense fallback={<p>Loading...</p>}>
           <AddTodo onCreate={addTodo} />
         </React.Suspense>
